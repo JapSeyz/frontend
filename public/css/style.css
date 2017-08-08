@@ -70,6 +70,22 @@ input.form-control {
     height: 50px;
 }
 
+.input-group .input-group-addon {
+    border-right: 1px solid #ccc;
+    -webkit-border-radius: 3px 0 0 3px;
+    -moz-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
+    min-width: 130px;
+}
+
+.input-group label{
+    color: #555;
+}
+
+.input-group input{
+    border-left:0;
+}
+
 .btn-primary {
     height: 50px;
     border-radius: 2px;
